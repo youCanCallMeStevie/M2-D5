@@ -5,6 +5,23 @@ body {
   background: #0f171e;
 }
 
+nav {
+  display: flex;
+}
+
+nav ul {
+  width: 100%;
+
+  justify-content: space-between;
+}
+
+#list {
+  display: flex;
+}
+
+#searchbar {
+  display: flex;
+}
 h1 {
   color: #f3f3f3;
 }
@@ -17,12 +34,17 @@ img:hover {
   box-shadow: 0 0 2px 1px white;
 }
 
+footer {
+  font-size: 10px;
+}
+
 footer a {
   color: #757575;
 }
 
 footer a:hover {
   color: #f3f3f3;
+  text-decoration: none;
 }
 
 i a {
